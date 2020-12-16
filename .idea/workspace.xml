@@ -71,7 +71,7 @@
       <workItem from="1607052200211" duration="2211000" />
       <workItem from="1607394325082" duration="1138000" />
       <workItem from="1607410025148" duration="26000" />
-      <workItem from="1608097850566" duration="1294000" />
+      <workItem from="1608097850566" duration="4427000" />
     </task>
     <servers />
   </component>
@@ -91,10 +91,10 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="490" y="134" key="#xdebugger.evaluate/0.0.1468.864@0.0.1468.864" timestamp="1607052299209" />
-    <state x="515" y="187" key="FileChooserDialogImpl" timestamp="1607410048821">
+    <state x="515" y="187" key="FileChooserDialogImpl" timestamp="1608102791040">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="515" y="187" key="FileChooserDialogImpl/0.0.1468.864@0.0.1468.864" timestamp="1607410048821" />
+    <state x="515" y="187" key="FileChooserDialogImpl/0.0.1468.864@0.0.1468.864" timestamp="1608102791040" />
     <state width="1447" height="277" key="GridCell.Tab.0.bottom" timestamp="1607061807444">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
@@ -143,5 +143,9 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state width="1447" height="277" key="GridCell.Tab.2.right/0.0.1468.864@0.0.1468.864" timestamp="1607061807444" />
+    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1608098890361">
+      <screen x="0" y="0" width="1468" height="864" />
+    </state>
+    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1468.864@0.0.1468.864" timestamp="1608098890361" />
   </component>
 </project>

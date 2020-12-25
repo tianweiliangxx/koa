@@ -11,6 +11,13 @@ const catchError = async (ctx, next) => {
         request: `${ctx.method} ${ctx.path}`
       }
       ctx.status = error.code
+    } else {
+      ctx.body = {
+        msg: 'we made a mistake',
+        error_code: 999,
+        request: `${ctx.method} ${ctx.path}`
+      }
+      ctx.status = 500
     }
     // error 堆栈调用信息
     // error 简化清楚明了的信息 给前端

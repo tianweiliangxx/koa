@@ -8,6 +8,7 @@ router.post('/v1/:id/classic/latest', (ctx, next) => {
   const query = ctx.request.query
   const headers = ctx.request.header
   const body = ctx.request.body
+  // 去除同步node_modules文件夹
   const v = new PositiveIntegerValidator().validate(ctx)
   ctx.body = {
     path,

@@ -8,10 +8,13 @@ router.post('/v1/:id/classic/latest', (ctx, next) => {
   const query = ctx.request.query
   const headers = ctx.request.header
   const body = ctx.request.body
-  // 去除同步node_modules文件夹
+
   const v = new PositiveIntegerValidator().validate(ctx)
+  // 通过lin-validator获取http参数
+  const id = v.get('path.id')
   ctx.body = {
     path,
+    id
   }
   // throw new Error('API Eception')
 })

@@ -9,6 +9,8 @@ const sequelize = new Sequelize(dbName, user, password, {
   timezone: '+08:00'
 })
 
+sequelize.sync()
+
 module.exports = {
   sequelize
 }

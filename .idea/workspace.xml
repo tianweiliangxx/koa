@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="sequelize配置数据库">
+    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="User模型">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.js" afterDir="false" />
     </list>
@@ -105,7 +104,8 @@
       <workItem from="1608794398779" duration="4321000" />
       <workItem from="1608860440462" duration="6358000" />
       <workItem from="1609115411185" duration="398000" />
-      <workItem from="1609117635520" duration="9266000" />
+      <workItem from="1609117635520" duration="13966000" />
+      <workItem from="1610002283485" duration="1536000" />
     </task>
     <task id="LOCAL-00001" summary="去除同步node_modules文件夹">
       <created>1608864524952</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609134323260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="User模型">
+      <created>1609139064612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609139064612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去除同步node_modules文件夹" />
     <MESSAGE value="sequelize配置数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="sequelize配置数据库" />
+    <MESSAGE value="User模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="User模型" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="93" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607052230305">
@@ -217,13 +225,13 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="615" y="345" key="VCS.EditChangelistDialog/0.0.1468.864@0.0.1468.864" timestamp="1608863421207" />
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1609134325880">
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1609139066308">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1609134325880" />
-    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1608860575112">
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1609139066308" />
+    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1609141563356">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1468.864@0.0.1468.864" timestamp="1608860575112" />
+    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1468.864@0.0.1468.864" timestamp="1609141563356" />
   </component>
 </project>

@@ -19,4 +19,7 @@ User.init({
     type: Sequelize.STRING(64),
     unique: true // 唯一
   }
-}, { sequelize: db })
+}, {
+  sequelize: db,
+  tableName: 'user'
+})

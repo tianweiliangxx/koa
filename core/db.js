@@ -5,11 +5,22 @@ const sequelize = new Sequelize(dbName, user, password, {
   dialect: 'mysql',
   host,
   port,
-  logging: true,
-  timezone: '+08:00'
+  logging: true, // 控制台输出sql语句
+  timezone: '+08:00',
+  define: {
+    // create_time update_time delete_time
+    timestamps: true,
+    paranoid: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at',
+    deletedAt: 'deleted_at',
+    underscored: true
+  }
 })
 
-sequelize.sync()
+sequelize.sync({
+  force: true // 是否重建数据表
+})
 
 module.exports = {
   sequelize

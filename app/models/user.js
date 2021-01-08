@@ -13,7 +13,10 @@ User.init({
     autoIncrement: true // 自增
   },
   nickname: Sequelize.STRING,
-  email: Sequelize.STRING,
+  email: {
+    type: Sequelize.STRING(128),
+    unique: true // 唯一
+  },
   password: Sequelize.STRING,
   openid: { // 微信用户的标识
     type: Sequelize.STRING(64),
@@ -23,3 +26,7 @@ User.init({
   sequelize: db,
   tableName: 'user'
 })
+
+module.exports = {
+  User
+}

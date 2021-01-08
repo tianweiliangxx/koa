@@ -19,7 +19,7 @@ const sequelize = new Sequelize(dbName, user, password, {
 })
 
 sequelize.sync({
-  force: false // 是否重建数据表
+  force: true // 是否重建数据表
 })
 
 module.exports = {

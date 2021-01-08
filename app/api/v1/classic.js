@@ -8,13 +8,12 @@ router.post('/v1/:id/classic/latest', (ctx, next) => {
   const query = ctx.request.query
   const headers = ctx.request.header
   const body = ctx.request.body
-
   const v = new PositiveIntegerValidator().validate(ctx)
   // 通过lin-validator获取http参数
   const id = v.get('path.id')
   ctx.body = {
     path,
-    id
+    id,
   }
   // throw new Error('API Eception')
 })

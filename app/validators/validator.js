@@ -2,7 +2,7 @@ const { LinValidator, Rule } = require('../../core/lin-validator-v2')
 
 const { User } = require('../models/user')
 
-const {LoginType} = require ('../lib/enum')
+const {loginType} = require ('../lib/enum')
 
 class PositiveIntegerValidator extends LinValidator{
   constructor() {
@@ -78,7 +78,7 @@ class TokenValidator extends LinValidator{
     if (!vals.body.type) {
       throw new Error('type是必须参数')
     }
-    if (!LoginType.isThis.Type(vals.body.type)) {
+    if (!loginType.isThisType(vals.body.type)) {
       throw new Error('type参数不合法')
     }
   }

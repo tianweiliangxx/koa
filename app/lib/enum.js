@@ -8,7 +8,7 @@ function isThisType(val) {
   return false
 }
 
-const LoginType = {
+const loginType = {
   USER_MINI_PROGRAM: 100,
   USER_EMAIL: 101,
   USER_MOBILE: 102,
@@ -17,5 +17,5 @@ const LoginType = {
 }
 
 module.exports = {
-  LoginType
+  loginType
 }

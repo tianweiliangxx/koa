@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="模拟枚举">
-      <change afterPath="$PROJECT_DIR$/middlewares/auth.js" afterDir="false" />
+    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="jsonwebtoken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/enum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/validators/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/validators/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +76,26 @@
     <configuration name="debug" type="NodeJSConfigurationType" node-parameters="--inspect-brk app.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.debug" />
       <item itemvalue="Node.js.app.js" />
+      <item itemvalue="npm.start:dev" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,6 +129,9 @@
       <workItem from="1610588512580" duration="5489000" />
       <workItem from="1610594843471" duration="5060000" />
       <workItem from="1613696412245" duration="3763000" />
+      <workItem from="1614304219579" duration="6345000" />
+      <workItem from="1614559393175" duration="42000" />
+      <workItem from="1614577044627" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="去除同步node_modules文件夹">
       <created>1608864524952</created>
@@ -182,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610592484391</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jsonwebtoken">
+      <created>1614304362197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614304362197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +231,8 @@
     <MESSAGE value="密码加密和模型的set操作" />
     <MESSAGE value="数据库操作成功提醒" />
     <MESSAGE value="模拟枚举" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟枚举" />
+    <MESSAGE value="jsonwebtoken" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsonwebtoken" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="93" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607052230305">
@@ -225,26 +247,26 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="490" y="134" key="#xdebugger.evaluate/0.0.1468.864@0.0.1468.864" timestamp="1607052299209" />
-    <state x="515" y="187" key="FileChooserDialogImpl" timestamp="1610608235104">
+    <state x="515" y="187" key="FileChooserDialogImpl" timestamp="1614559433059">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="515" y="187" key="FileChooserDialogImpl/0.0.1468.864@0.0.1468.864" timestamp="1610608235104" />
-    <state width="1447" height="224" key="GridCell.Tab.0.bottom" timestamp="1610441556502">
+    <state x="515" y="187" key="FileChooserDialogImpl/0.0.1468.864@0.0.1468.864" timestamp="1614559433059" />
+    <state width="1447" height="224" key="GridCell.Tab.0.bottom" timestamp="1614577872881">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.bottom/0.0.1468.864@0.0.1468.864" timestamp="1610441556502" />
-    <state width="1447" height="224" key="GridCell.Tab.0.center" timestamp="1610441556501">
+    <state width="1447" height="224" key="GridCell.Tab.0.bottom/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
+    <state width="1447" height="224" key="GridCell.Tab.0.center" timestamp="1614577872881">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.center/0.0.1468.864@0.0.1468.864" timestamp="1610441556501" />
-    <state width="1447" height="224" key="GridCell.Tab.0.left" timestamp="1610441556501">
+    <state width="1447" height="224" key="GridCell.Tab.0.center/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
+    <state width="1447" height="224" key="GridCell.Tab.0.left" timestamp="1614577872881">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.left/0.0.1468.864@0.0.1468.864" timestamp="1610441556501" />
-    <state width="1447" height="224" key="GridCell.Tab.0.right" timestamp="1610441556501">
+    <state width="1447" height="224" key="GridCell.Tab.0.left/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
+    <state width="1447" height="224" key="GridCell.Tab.0.right" timestamp="1614577872881">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.right/0.0.1468.864@0.0.1468.864" timestamp="1610441556501" />
+    <state width="1447" height="224" key="GridCell.Tab.0.right/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
     <state width="1447" height="365" key="GridCell.Tab.1.bottom" timestamp="1610441556493">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
@@ -301,10 +323,10 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="615" y="345" key="VCS.EditChangelistDialog/0.0.1468.864@0.0.1468.864" timestamp="1608863421207" />
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610592486870">
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614304365017">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1610592486870" />
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1614304365017" />
     <state x="277" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610009320377">
       <screen x="0" y="0" width="1468" height="864" />
     </state>

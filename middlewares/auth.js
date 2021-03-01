@@ -1,4 +1,5 @@
 const basicAuth = require('basic-auth')
+const jwt = require('jsonwebtoken')
 
 class Auth {
   constructor() {
@@ -7,9 +8,28 @@ class Auth {
 
   get m() {
     return async (ctx, next) => {
-      const token = basicAuth(ctx.req)
-      ctx.body = token
-      // token 检测
+      // 获取token
+      const userToken = basicAuth(ctx.req)
+      let errMsg = 'token不合法'
+
+      if(!userToken || !userToken.name) {
+        throw new global.errs.Forbbiden(errMsg)
+      }
+      try {
+        var decode = jwt.verify(userToken.name, global.config.security.secretKey)
+      } catch (error) {
+        if (error.name == 'TokenExpiredError') {
+          errMsg = 'token已过期'
+        }
+        throw new global.errs.Forbbiden(errMsg)
+      }
+
+      ctx.auth = {
+        uid: decode.uid,
+        scope: decode.scope
+      }
+
+      await next()
     }
   }
 }

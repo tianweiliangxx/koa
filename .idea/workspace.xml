@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="jsonwebtoken">
+    <list default="true" id="e6a4e9e0-bb5b-464d-99a4-058e22b6a3a6" name="Default Changelist" comment="验证jwt令牌">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,7 @@
       <workItem from="1613696412245" duration="3763000" />
       <workItem from="1614304219579" duration="6345000" />
       <workItem from="1614559393175" duration="42000" />
-      <workItem from="1614577044627" duration="1290000" />
+      <workItem from="1614577044627" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="去除同步node_modules文件夹">
       <created>1608864524952</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614304362197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="验证jwt令牌">
+      <created>1614578569359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614578569359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +238,8 @@
     <MESSAGE value="数据库操作成功提醒" />
     <MESSAGE value="模拟枚举" />
     <MESSAGE value="jsonwebtoken" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsonwebtoken" />
+    <MESSAGE value="验证jwt令牌" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证jwt令牌" />
   </component>
   <component name="WindowStateProjectService">
     <state x="323" y="93" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607052230305">
@@ -251,22 +258,22 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="515" y="187" key="FileChooserDialogImpl/0.0.1468.864@0.0.1468.864" timestamp="1614559433059" />
-    <state width="1447" height="224" key="GridCell.Tab.0.bottom" timestamp="1614577872881">
+    <state width="1042" height="221" key="GridCell.Tab.0.bottom" timestamp="1614578396734">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.bottom/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
-    <state width="1447" height="224" key="GridCell.Tab.0.center" timestamp="1614577872881">
+    <state width="1042" height="221" key="GridCell.Tab.0.bottom/0.0.1468.864@0.0.1468.864" timestamp="1614578396734" />
+    <state width="1042" height="221" key="GridCell.Tab.0.center" timestamp="1614578396734">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.center/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
-    <state width="1447" height="224" key="GridCell.Tab.0.left" timestamp="1614577872881">
+    <state width="1042" height="221" key="GridCell.Tab.0.center/0.0.1468.864@0.0.1468.864" timestamp="1614578396734" />
+    <state width="1042" height="221" key="GridCell.Tab.0.left" timestamp="1614578396734">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.left/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
-    <state width="1447" height="224" key="GridCell.Tab.0.right" timestamp="1614577872881">
+    <state width="1042" height="221" key="GridCell.Tab.0.left/0.0.1468.864@0.0.1468.864" timestamp="1614578396734" />
+    <state width="1042" height="221" key="GridCell.Tab.0.right" timestamp="1614578396734">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state width="1447" height="224" key="GridCell.Tab.0.right/0.0.1468.864@0.0.1468.864" timestamp="1614577872881" />
+    <state width="1042" height="221" key="GridCell.Tab.0.right/0.0.1468.864@0.0.1468.864" timestamp="1614578396734" />
     <state width="1447" height="365" key="GridCell.Tab.1.bottom" timestamp="1610441556493">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
@@ -323,17 +330,17 @@
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="615" y="345" key="VCS.EditChangelistDialog/0.0.1468.864@0.0.1468.864" timestamp="1608863421207" />
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614304365017">
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614578570929">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1614304365017" />
+    <state x="327" y="165" key="Vcs.Push.Dialog.v2/0.0.1468.864@0.0.1468.864" timestamp="1614578570929" />
     <state x="277" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610009320377">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
     <state x="277" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1468.864@0.0.1468.864" timestamp="1610009320377" />
-    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1613697021301">
+    <state x="758" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1614578505485">
       <screen x="0" y="0" width="1468" height="864" />
     </state>
-    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1468.864@0.0.1468.864" timestamp="1613697021301" />
+    <state x="758" y="186" width="672" height="678" key="search.everywhere.popup/0.0.1468.864@0.0.1468.864" timestamp="1614578505485" />
   </component>
 </project>
